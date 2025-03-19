@@ -80,8 +80,8 @@ GET /documents/:uuid
 ```json
 
 {
-  "书名1": "document-uuid-1",
-  "文章名2": "document-uuid-1"
+  "文章名1": "uuid-1",
+  "文章名2": "uuid-2"
 }
 
 ```
