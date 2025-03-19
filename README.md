@@ -78,15 +78,12 @@ GET /documents/:uuid
 ## 📝 contents.json格式
 `contents.json`文件包含所有可用文档的信息，格式如下：
 ```json
-[
-  {
-    "uuid": "document-uuid-1",
-    "title": "文档标题",
-    "description": "文档描述（可选）",
-    "tags": ["标签1", "标签2"]
-  },
-  ...
-]
+
+{
+  "书名1": "document-uuid-1",
+  "文章名2": "document-uuid-1"
+}
+
 ```
 
 ## ➕ 添加新文档
